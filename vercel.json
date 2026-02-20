@@ -1,4 +1,6 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
-  "rootDirectory": "lafaos"
+  "installCommand": "cd lafaos && npm install",
+  "buildCommand": "cd lafaos && npm run build"
 }
